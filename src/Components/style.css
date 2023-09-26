@@ -6,7 +6,7 @@
 }
 :root {
   --primary-color: #0b0b0b;
-  --secondary-color: #8a8783;
+  --secondary-color: #333333;
 }
 body {
   background-color: var(--primary-color);
@@ -64,7 +64,7 @@ nav ul li a:focus::before {
   outline: none;
   border: 1px solid var(--primary-color);
   border-radius: 2rem 0 0 2rem;
-  padding: 0.3rem 1rem;
+  padding: 0.8rem 5rem;
   font-size: 1rem;
   color: white;
   background-color: var(--primary-color);
@@ -79,7 +79,7 @@ nav ul li a:focus::before {
   padding: 0.2rem 0.5rem;
   border-radius: 0 2rem 2rem 0;
   color: white;
-  font-size: 1rem;
+  font-size: 2rem;
   outline: none;
   border: 1px solid var(--primary-color);
 }
@@ -121,6 +121,7 @@ nav ul li a:focus::before {
   width: 160px;
   font-size: 15px;
   text-align: center;
+  color: aliceblue;
 }
 .movie-details .overview {
   position: absolute;
@@ -141,6 +142,7 @@ nav ul li a:focus::before {
 }
 .rating {
   background-color: var(--secondary-color);
+  color: aliceblue;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -174,4 +176,5 @@ nav ul li a:focus::before {
 .notfound {
   font-size: 40px;
   font-weight: bold;
+  color: aliceblue;
 }
