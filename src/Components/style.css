@@ -140,7 +140,7 @@ nav ul li a:focus::before {
   transform: translateY(0%);
 }
 .rating {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   width: 35px;
   height: 35px;
   border-radius: 50%;
